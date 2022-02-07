@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="icon" href="assets/logo.png">
+    <title>| Contact Form</title>
+</head>
+<body style="background-color: #e0e0e0;">
+
+    <nav>
+        <div class="left-side">
+            <a href="form.html" class="a1" rel="noopener noreferrer"><img src="assets/logo.png" alt=""></a>
+            <ul>
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="my-project.html" target="_blank">My Project</a></li>
+            </ul>
+        </div>
+
+
+        <div class="right-side">
+            <a href="form.html">Contact Me</a>
+        </div>
+    </nav>
+
+
+<center>
+    <div style="width: 70vh; margin-top:10px; padding:20px 70px 60px 70px ;  background: linear-gradient(200deg, #ffc3a0 0%, #ffafbd 100%);">
+        <form action="" style="text-align: left;">
+            <div>
+                <label for="name" style="font-size: 10pt; font-weight: 700;">Name</label>
+                <br>
+                <input type="text" name="" id="name" pattern="[A-z]" style="width: 100%; box-sizing: border-box; padding: 5px 0px; margin-top: 5px; margin-bottom: 10px; background-color: #e9e4f0; border: 0 solid white; border-radius: 5px;box-shadow: 5px 3x 1px 0.5px #fff0f0;">         
+            </div>
+            <div>
+                <label for="email" style="font-size: 10pt; font-weight: 700;">Email</label>
+                <br>
+                <input type="email" name="" id="email" style="width: 100%; box-sizing: border-box; padding: 5px 0px; margin-top: 5px; margin-bottom: 10px;background-color: #e9e4f0; border: 0 solid white; border-radius: 5px;box-shadow: 5px 3x 1px 0.5px #fff0f0;">
+            </div>
+            <div>
+                <label for="phone" style="font-size: 10pt; font-weight: 700;">Phone Number</label>
+                <br>
+                <input type="text" name="" id="phone" pattern="\d*" style="width: 100%; box-sizing: border-box; padding: 5px 0px; margin-top: 5px; margin-bottom: 10px;background-color: #e9e4f0; border: 0 solid white; border-radius: 5px;box-shadow: 5px 3x 1px 0.5px #fff0f0;">
+                <br>
+            </div>
+            <div>
+                <label for="subject" style="font-size: 10pt; font-weight: 700;">Subject</label>
+                <br>
+                <select name="" id="subject" style="width: 100%; box-sizing: border-box; padding: 5px 0px; margin-top: 5px; margin-bottom: 10px; font-size: 15px;background-color: #e9e4f0; border: 0 solid white; border-radius: 5px;box-shadow: 5px 3x 1px 0.5px #fff0f0;">
+                    <option value="Let's Talk" style="font-size: 15p;">Let's Talk</option>
+                    <option value="Let's Collaboration" style="font-size: 15p;">Let's Collaboration</option>
+                    <option value="I Am Hiring" style="font-size: 15p;">I Am Hiring</option>
+                </select>
+                <br>
+            </div>
+            <div>
+                <label for="message" style="font-size: 10pt; font-weight: 700;">Your Message</label>
+                <br>
+                <textarea name="" id="message" cols="20" rows="7" style="width: 100%; box-sizing: border-box; padding: 5px 0px; margin-top: 5px; margin-bottom: 10px;background-color: #e9e4f0; border: 0 solid white; border-radius: 5px;box-shadow: 5px 3x 1px 0.5px #fff0f0;"></textarea>
+                <br>
+            </div>
+            <div>
+            <button type="button" onclick="showData()" style="background-color:crimson; padding: 10px 30px; border-radius: 10pt; font-size: 10pt; cursor: pointer; color: white; float: right; border: 1px solid crimson;">Submit</button>
+            </div>     
+        </form>
+    </div>
+</center>
+
+<script src="js/form.js"></script>
+</body>
+</html>

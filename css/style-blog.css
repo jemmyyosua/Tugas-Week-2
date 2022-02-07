@@ -1,0 +1,353 @@
+/* STYLING BLOG FORM */
+*{
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(20deg, #c9d6ff 0%, #e2e2e2 100%);
+}
+
+
+form{
+    border-radius: 5px;
+    background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 90vh;
+    text-align: center;
+    font-size: 16pt;
+    padding:40px 70px;
+}
+
+form input{
+    padding: 5px 0;
+    border-radius: 5px;
+    background-color: #e3e3e3;
+    border: 1px solid #ebebeb;
+}
+
+form label{
+    font-weight: 700;
+}
+
+form textarea{
+    background-color: #e3e3e3;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+}
+
+form .input-title{
+    font-weight: 900;
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-date{
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+}
+
+form .input-date .left-date{
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    width: 60%;
+}
+
+form .input-date .right-date{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 60%;
+}
+
+form .description{
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+form .description textarea{
+    resize: none;
+}
+
+form .technologies{   
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+}
+
+form .technologies .up-technologies{
+    color: #8f8f8f;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+form .technologies .down-technologies{
+    color: #8f8f8f;
+    font-size: 14pt;
+    font-weight: 100;
+}
+
+form .technologies .up-technologies input{
+    height: 17px;
+    width: 17px;
+    box-shadow: 2px 2px 0 0 darkgray;
+}
+
+form .technologies .down-technologies input{
+    height: 17px;
+    width: 17px;
+    box-shadow: 2px 2px 0 0 darkgray;
+}
+
+form .technologies .up-technologies .next-js{
+    margin-left: 100px;
+}
+
+form .technologies .down-technologies .typescript{
+    margin-left: 99px;
+}
+
+
+form .input-image .label-image{
+    margin-right: 305px;
+}
+
+form .input-image .box-image{
+    justify-content: center;
+    display: flex;
+}
+
+form .input-image .box-image label{
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    background-color: #ebebeb;
+    border: 1px solid #ebebeb;
+    width: 100%;
+}
+
+form .input-image .box-image p{
+    font-size: 14pt;
+    font-weight: 100;
+    border-radius: 5px;
+    background-color: grey;
+    padding: 4px 10px;
+}
+
+form .input-image .box-image img{
+    background-color: #ebebeb;
+    padding: 2px 10px;
+    margin-inline-start: 293px;
+}
+
+
+
+form .btn-post{
+    margin: 20px 0 0 330px;
+}
+
+.list-blog-body{
+    padding-top: 100px;
+    background-color: white;
+}
+
+.list-blog-body .title{
+    text-align: center;
+    font-size: 30pt;
+    font-weight: 900;
+}
+
+.list-blog{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    font-size: 8pt;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    margin: 50px 0;
+    margin-inline-start:85px ;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 25%;
+    padding: 20px 20px;
+    text-align: left;
+    box-sizing: border-box;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 10px 10px 10px 10px  rgba(21, 94, 252, 0.2);
+  }
+
+
+.card .img1{
+    cursor: pointer;
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.card h3{ 
+    cursor: pointer;
+    padding: 5px 0;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.card h4{
+    padding: 2px 0;
+}
+
+
+.card .p1{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    padding: 5px 20px 0 0;
+    word-wrap: break-word;
+    min-height: 90px;
+}
+
+.card .icon{
+    padding: 20px 0;
+    display: flex;
+    width: 100%;
+}
+
+.card .icon img{
+    min-width: 10%;
+    width: 10%;
+    margin-inline-end:25px ;
+}
+
+.card a{
+    color:black;
+    text-decoration: none;
+}
+
+.card  .list-card-button{
+    display: flex; 
+}
+
+.card .card-button{
+    margin-inline-start: 5px;
+    flex: 50%;
+    font-weight: 700;
+    background: linear-gradient(90deg, #ffc3a0 0%, #ffafbd 100%);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: 0.2s;
+}
+
+
+
+
+
+/* Blog Detail */
+.detail-blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+  }
+
+.detail-blog h1{
+    margin: 50px 0;
+}
+
+.detail-blog .flex-1{
+    display: flex;
+}
+
+.detail-blog .flex-1 .flex-1-left{
+    flex: 100%;
+    padding-right: 50px;
+}
+
+.detail-blog .flex-1 .flex-1-left img{
+    width: 100%;
+}
+
+.detail-blog .flex-1 .flex-1-right {
+    margin-top: 10px;
+    font-size: 20pt;
+    flex: 40%;
+}   
+
+.detail-blog .flex-1 .flex-1-right .duration{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+    color: darkgray;
+}
+
+.detail-blog .flex-1 .flex-1-right .duration div{
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.detail-blog .flex-1 .flex-1-right .duration img{
+    width: 8%;
+}
+
+.detail-blog .flex-1 .flex-1-right .duration p{
+    font-weight: 900;
+    margin: 0 10px;
+}
+
+.detail-blog .flex-1 .flex-1-right .technologies img{
+    width: 12%;
+}
+
+.detail-blog .flex-1 .flex-1-right .technologies div{
+    font-size: 14pt;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+}
+
+.detail-blog .flex-1 .flex-1-right .technologies div p{
+    margin-inline-start: 5px;
+    color: darkgrey;
+    font-weight:700;
+}
+
+.detail-blog .flex-1 .flex-1-right .technologies .icon-right{
+    margin-inline-start: 50px;
+}
+
+.detail-blog .flex-1 .flex-1-right .technologies .icon-right-2{
+    margin-inline-start: 52px;
+    width: 14%;
+}
+
+.detail-blog .content{
+    margin: 60px 0;
+}
+
+
+  
