@@ -28,7 +28,7 @@ function addBlog(event){
         image,
     }
 
-    console.log(blog)
+    console.log(typeof startDate)
     
     blogs.push(blog)
 
