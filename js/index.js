@@ -13,7 +13,6 @@ function addBlog(event){
 
     image = URL.createObjectURL(image.files[0])
 
-    // fungsi mencari selisih input date
 
 
     let blog = {
@@ -35,7 +34,6 @@ function addBlog(event){
 
     renderBlog()
 
-         
 }
 
 
@@ -74,7 +72,7 @@ function renderBlog(){
 
 }
 
-
+// fungsi mencari selisih input dates
 function daterange(){
   let startDate = document.getElementById('start-date').value
   let endDate = document.getElementById('end-date').value
