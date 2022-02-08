@@ -93,6 +93,7 @@ form .technologies .down-technologies{
     color: #8f8f8f;
     font-size: 14pt;
     font-weight: 100;
+    margin-bottom: 20px;
 }
 
 form .technologies .up-technologies input{
